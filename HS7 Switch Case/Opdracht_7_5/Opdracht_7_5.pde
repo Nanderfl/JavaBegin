@@ -4,24 +4,24 @@ switch(cijfer){
   case 1:
   case 2:
   case 3:
-   println("Slecht cijfer");
+   println("Slecht");
    break;
   case 4:
-   println("Onvoldoende cijfer");
+   println("Onvoldoende");
    break;
   case 5:
-   println("Matig cijfer");
+   println("Matig");
    break;
   case 6:
   case 7:
-   println("Voldoende cijfer");
+   println("Voldoende");
    break;
   case 8:
   case 9:
   case 10:
-   println("GOED cijfer");
+   println("Goed");
    break;
  default:
-  println("Warning: VERKEERD CIJFER INGEVOERD!!!");
+  println("Niet mogelijk!");
   break;
 }
