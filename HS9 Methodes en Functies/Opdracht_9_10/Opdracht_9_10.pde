@@ -6,6 +6,9 @@ void draw(){
 noStroke();
 background(155,245,255);
   stam (480,100,50,900);
+  cloud (180,80,250,75);
+  cloud (860,180,250,75);
+  cloud (21,320,250,75);
   bladeren (400,50,300,250);
   bladeren (600,50,300,250);
   bladeren (650,130,300,250);
@@ -20,13 +23,17 @@ background(155,245,255);
   bos (700,970,150,150);
   bos (810,970,150,150);
   bos (755,920,150,150);
-  
 }
 
 void stam (int a, int b, int c, int d){
 // stam
   fill(190,104,55);
   rect(a,b,c,d);
+}
+void cloud (int a, int b, int c, int d){
+// wolken
+  fill(244,255,254);
+  ellipse(a,b,c,d);
 }
 void bladeren (int a, int b, int c, int d){
 // bladeren
