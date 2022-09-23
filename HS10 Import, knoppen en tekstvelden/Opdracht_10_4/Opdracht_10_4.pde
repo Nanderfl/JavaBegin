@@ -11,7 +11,7 @@ void setup(){
 size(360,300);
   cp = new ControlP5(this);
 
-  knop1 = cp.addButton("Leerlingen")
+  knop1 = cp.addButton("Leerling")
     .setPosition(25,40)
     .setSize(150,150)
     .setColorActive(color(255,255,255))
@@ -33,7 +33,7 @@ text("Aantal Ouderen = " + Ouderen,207,210);
 text("Totaal aantal = " + Totaal,140,240);
 }
 
-void Leerlingen(){
+void Leerling(){
  Leerlingen++;
  Totaal++;
 }
