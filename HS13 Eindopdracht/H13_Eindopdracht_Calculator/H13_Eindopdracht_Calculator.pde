@@ -17,9 +17,19 @@ Button knop7;
 Button knop8;
 Button knop9;
 
-int Getal1;
-int Getal2;
-float Totaal = 0;
+int Getal0 = 0;
+int Getal1 = 1;
+int Getal2 = 2;
+int Getal3 = 3;
+int Getal4 = 4;
+int Getal5 = 5;
+int Getal6 = 6;
+int Getal7 = 7;
+int Getal8 = 8;
+int Getal9 = 9;
+String Variabel1;
+String Variabel2;
+String Totaal;
 
 void setup(){
   size(510,750);
@@ -144,64 +154,80 @@ void draw(){
   fill(255,0,251);
   textSize(54);
   text(Totaal,105,155);
+
 }
 
 void Plus(){
-Getal1 + Getal2
+Totaal = Variabel1 + Variabel2;
 }
 
 void Min(){
-Getal1 - Getal2
+
 }
 
 void Keer(){
-Getal1 * Getal2
+
 }
 
 void Delen(){
-Getal1 / Getal2
+
 }
 
 void Is(){
-Totaal
+
 }
 
 void Knop0(){
 
+println(Getal0);
 }
 
 void Knop1(){
 
+println(Getal1);
 }
 
 void Knop2(){
 
+println(Getal2);
 }
 
 void Knop3(){
 
+println(Getal3);
 }
 
 void Knop4(){
 
+println(Getal4);
 }
 
 void Knop5(){
 
+println(Getal5);
 }
 
 void Knop6(){
 
+println(Getal6);
 }
 
 void Knop7(){
 
+println(Getal7);
 }
 
 void Knop8(){
 
+println(Getal8);
 }
 
 void Knop9(){
 
+println(Getal9);
 }
+
+    //    Variabel1 = Getal0; Variabel1 = Getal1; Variabel1 = Getal2; Variabel1 = Getal3; Variabel1 = Getal4; Variabel1 = Getal5; Variabel1 = Getal6; Variabel1 = Getal7; Variabel1 = Getal8; Variabel1 = Getal9; 
+     //   Variabel2 = Getal0; Variabel2 = Getal1; Variabel2 = Getal2; Variabel2 = Getal3; Variabel2 = Getal4; Variabel2 = Getal5; Variabel2 = Getal6; Variabel2 = Getal7; Variabel2 = Getal8; Variabel2 = Getal9; 
+      //  Totaal = Variabel1 + Variabel2;
+     //   println(Variabel1, Variabel2);
