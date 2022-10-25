@@ -27,8 +27,8 @@ int Getal6 = 6;
 int Getal7 = 7;
 int Getal8 = 8;
 int Getal9 = 9;
-String Variabel1;
-String Variabel2;
+int Variabel1;
+int Variabel2;
 int Totaal = 0;
 
 void setup(){
@@ -158,23 +158,28 @@ void draw(){
 }
 
 void Plus(){
-
+  
+println("+");
 }
 
 void Min(){
-
+  
+println("-");
 }
 
 void Keer(){
-
+  
+println("X");
 }
 
 void Delen(){
-
+  
+println("/");
 }
 
 void Is(){
 
+println("=");
 }
 
 void Knop0(){
