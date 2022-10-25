@@ -29,7 +29,7 @@ int Getal8 = 8;
 int Getal9 = 9;
 String Variabel1;
 String Variabel2;
-String Totaal;
+int Totaal = 0;
 
 void setup(){
   size(510,750);
@@ -153,12 +153,12 @@ void draw(){
   rect(100,85,300,100);
   fill(255,0,251);
   textSize(54);
-  text(Totaal,105,155);
-
+  text(Totaal,115,155);
+ 
 }
 
 void Plus(){
-Totaal = Variabel1 + Variabel2;
+
 }
 
 void Min(){
@@ -227,7 +227,9 @@ void Knop9(){
 println(Getal9);
 }
 
+
     //    Variabel1 = Getal0; Variabel1 = Getal1; Variabel1 = Getal2; Variabel1 = Getal3; Variabel1 = Getal4; Variabel1 = Getal5; Variabel1 = Getal6; Variabel1 = Getal7; Variabel1 = Getal8; Variabel1 = Getal9; 
      //   Variabel2 = Getal0; Variabel2 = Getal1; Variabel2 = Getal2; Variabel2 = Getal3; Variabel2 = Getal4; Variabel2 = Getal5; Variabel2 = Getal6; Variabel2 = Getal7; Variabel2 = Getal8; Variabel2 = Getal9; 
       //  Totaal = Variabel1 + Variabel2;
      //   println(Variabel1, Variabel2);
+     // Totaal = Variabel1 + Variabel2;
